@@ -202,7 +202,9 @@ POSTMAN Collection Link
     		<AirlineTicket>
     			<AirlineTicketCoupons>
     				<AirlineTicketCoupon>
+              <!-- CouponNumber is sequential order of Coupons for ticket-->
     					<CouponNumber>1</CouponNumber>
+              <!-- Vendor code -->
     					<Vendor>UA</Vendor>
     					<FlightNumber>357</FlightNumber>
     					<ClassOfService>S</ClassOfService>
@@ -210,6 +212,7 @@ POSTMAN Collection Link
     					<StartDateLocal>2014-11-28T15:03:00</StartDateLocal>
     					<StartCityCode>IAD</StartCityCode>
     					<EndCityCode>SEA</EndCityCode>
+              <!-- Valid Coupon Statuses (OPEN, EXCHANGED, REFUNDED, USED, VOID, etc.. ) -->
     					<CouponStatus>OPEN</CouponStatus>
     					<NotValidBeforeDate>2015-12-28T00:00:00</NotValidBeforeDate>
     					<NotValidAfterDate>2015-12-28T00:00:00</NotValidAfterDate>
@@ -245,7 +248,9 @@ POSTMAN Collection Link
     			<AirlineTicketExchanges/>
     			<AirlineCharges/>
     			<InvoiceNumber/>
+          <!--3 character carrier code from ticket-->
     			<PlatingCarrierNumericCode>016</PlatingCarrierNumericCode>
+          <!-- Rest of ticket number 10 characters -->
     			<PlatingControlNumber>7249117982</PlatingControlNumber>
     			<IssueDateTime>2015-09-07T23:59:00</IssueDateTime>
     			<IssueDateTimeUTC xsi:nil="true"/>
@@ -255,11 +260,12 @@ POSTMAN Collection Link
     			<BaseFareNuc xsi:nil="true"/>
     			<TotalFare>418.7000</TotalFare>
     			<TotalFareCurrency>USD</TotalFareCurrency>
+          <!--Need to add details here for each use case -->
     			<AddCollectAmount>0</AddCollectAmount>
     			<LinearFareConstructor>WAS UA SEA214.24UA WAS154.97 USD369.21END UA ZPIADSEA XT5.00AY9.00XFIAD4.5SEA4.5</LinearFareConstructor>
     			<TicketType>E</TicketType>
     		</AirlineTicket>
-    	</AirlineTickets>
+    </AirlineTickets>
 		<Passengers>
 			<Passenger>
 				<FrequentTravelerPrograms>
