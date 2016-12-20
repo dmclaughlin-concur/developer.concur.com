@@ -101,3 +101,15 @@ This page outlines the use cases for a travel supplier to successfully post book
 	</Booking>
 
 ```
+
+## Use Case 2 - Air Booking (with ticket)
+
+## Use Case 3 - Update Coupon Status
+
+## Use Case 4 - Ticket Exchange
+
+## Use Case 5 - Partial Refund
+
+## Use Case 6 - Full Refund
+
+## Use Case 7 - Cancel Booking
