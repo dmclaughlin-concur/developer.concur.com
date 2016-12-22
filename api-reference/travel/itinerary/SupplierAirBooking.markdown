@@ -3,7 +3,7 @@ This page outlines the use cases for a travel supplier to successfully post book
 
 POSTMAN Collection Link
 
-## Use Case 1 - Air Booking (no ticket)
+# Use Case 1 - Air Booking (no ticket)
 
 ### Endpoint - https://www.concursolutions.com/api/travel/booking/v1.1?
 
@@ -126,7 +126,7 @@ userid_value
 ### Concur Expense Display
 
 
-## Use Case 2 - Air Booking (with ticket)
+# Use Case 2 - Air Booking (with ticket)
 
 ### Endpoint - https://www.concursolutions.com/api/travel/booking/v1.1?
 
@@ -313,7 +313,7 @@ userid_value
 
       
 ```
-## Use Case 3 - Update Coupon Status
+# Use Case 3 - Update Coupon Status
 
 ### Endpoint - https://www.concursolutions.com/api/travel/booking/v1.1/UpdateCoupon?
 
@@ -343,13 +343,13 @@ userid_value
 
 ### Response
 
-## Use Case 4 - Ticket Exchange
+# Use Case 4 - Ticket Exchange
 
-## Use Case 5 - Partial Refund
+# Use Case 5 - Partial Refund
 
-## Use Case 6 - Full Refund
+# Use Case 6 - Full Refund
 
-## Use Case 7 - Cancel Booking
+# Use Case 7 - Cancel Booking
 
 ### EndPoint - https://www.concursolutions.com/api/travel/booking/v1.0?
 
