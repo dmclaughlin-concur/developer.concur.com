@@ -1,4 +1,8 @@
 # Travel Supplier Air Samples
+
+TOC
+
+
 This page outlines the use cases for a travel supplier to successfully post bookings to the Itinerary API.  
 
 POSTMAN Collection Link
