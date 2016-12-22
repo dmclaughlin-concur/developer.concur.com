@@ -297,6 +297,34 @@ POSTMAN Collection Link
 ```
 ## Use Case 3 - Update Coupon Status
 
+### Endpoint - https://www.concursolutions.com/api/travel/booking/v1.1/UpdateCoupon?
+
+### Request
+
+````XML
+<Booking xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <RecordLocator>DJM1013</RecordLocator>
+    <PlatingCarrierNumericCode>016</PlatingCarrierNumericCode>
+    <PlatingControlNumber>7249117982</PlatingControlNumber>
+    <AirlineTicketCoupon>
+        <ClassOfService>S</ClassOfService>
+        <CouponNumber>1</CouponNumber>
+        <CouponStatus>OPEN</CouponStatus>
+        <EndCityCode>SEA</EndCityCode>
+        <FlightNumber>357</FlightNumber>
+        <NotValidAfterDate>2016-05-28T00:00:00</NotValidAfterDate>
+        <NotValidBeforeDate>2016-05-28T00:00:00</NotValidBeforeDate>
+        <RateCode>SE143KS/8N02</RateCode>
+        <StartCityCode>IAD</StartCityCode>
+        <StartDateLocal>2016-05-28T15:03:00</StartDateLocal>
+        <Vendor>UA</Vendor>
+    </AirlineTicketCoupon>
+</Booking>
+
+```
+
+### Response
+
 ## Use Case 4 - Ticket Exchange
 
 ## Use Case 5 - Partial Refund
@@ -304,6 +332,19 @@ POSTMAN Collection Link
 ## Use Case 6 - Full Refund
 
 ## Use Case 7 - Cancel Booking
+
+### EndPoint - https://www.concursolutions.com/api/travel/booking/v1.0?
+
+### Params
+
+bookingsource
+Vendor
+confirmationnumber
+
+### Request
+
+https://www.concursolutions.com/api/travel/booking/v1.0?bookingsource=Test Car Vendor&confirmationnumber=F16726AIUS
+
 
 ## Enumerated Fields
 Coupon Status
