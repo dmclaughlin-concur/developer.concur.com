@@ -3,6 +3,10 @@ This page outlines the use cases for a travel supplier to successfully post book
 
 POSTMAN Collection Link
 
+### What you will need to get started?
+1. Create App LINK
+2. JWT token LINK
+
 # Use Case 1 - Air Booking (no ticket)
 
 ### Endpoint - https://www.concursolutions.com/api/travel/booking/v1.1?
