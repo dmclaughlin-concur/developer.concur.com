@@ -9,7 +9,9 @@ POSTMAN Collection Link
 
 ### Params
 TripID
+
 userid_type
+
 userid_value
 
 ### Request
@@ -130,7 +132,9 @@ userid_value
 
 ### Params
 TripID
+
 userid_type
+
 userid_value
 
 ### REQUEST
@@ -352,7 +356,9 @@ userid_value
 ### Params
 
 bookingsource
+
 Vendor
+
 confirmationnumber
 
 ### Request
@@ -362,6 +368,7 @@ https://www.concursolutions.com/api/travel/booking/v1.0?bookingsource=Test Car V
 
 ## Enumerated Fields
 Coupon Status
+
 Form Of Payment Type
 
 ## FAQ
