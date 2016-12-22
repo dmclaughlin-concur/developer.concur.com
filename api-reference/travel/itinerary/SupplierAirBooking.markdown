@@ -5,6 +5,13 @@ POSTMAN Collection Link
 
 ## Use Case 1 - Air Booking (no ticket)
 
+### Endpoint - https://www.concursolutions.com/api/travel/booking/v1.1?
+
+### Params
+TripID
+userid_type
+userid_value
+
 ### Request
 
 ```XML
@@ -118,6 +125,13 @@ POSTMAN Collection Link
 
 
 ## Use Case 2 - Air Booking (with ticket)
+
+### Endpoint - https://www.concursolutions.com/api/travel/booking/v1.1?
+
+### Params
+TripID
+userid_type
+userid_value
 
 ### REQUEST
 
