@@ -160,13 +160,15 @@ userid_value
     <!-- Must be a valid booking source -->
 		<BookingSource>Ethiad</BookingSource>
 		<FareExpiresEmailDatetimeUtc>2015-12-08T20:00:00</FareExpiresEmailDatetimeUtc>
-    <!-- FOPTypes (CC - Credit Card, CA - Corportae Account, CH- Cash) -->
+    <!-- FOPTypes (CC - Credit Card, CA - Corporate Account, CH- Cash, LC - Lodge Card) -->
 		<FormOfPaymentType>CC</FormOfPaymentType>
 		<Segments>
 			<Air>
 				<Status>HK</Status>
 				<StartDateUtc>2015-12-28T19:03:00</StartDateUtc>
 				<EndDateUtc>2015-12-29T00:50:00</EndDateUtc>
+			  <StartDateLocal>2015-12-28T15:03:00</StartDateLocal>
+			  <EndDateLocal>2015-12-28T17:50:00</EndDateLocal>   
 				<ConfirmationNumber>123DJM</ConfirmationNumber>
 				<Vendor>Ethiad</Vendor>
 				<OperatedByVendor/>
@@ -197,6 +199,8 @@ userid_value
 			</Air>
 			<Air>
 				<Status>HK</Status>
+			  <StartDateLocal>2015-12-30T07:30:00</StartDateLocal>
+			  <EndDateLocal>2015-12-30T15:33:00</EndDateLocal>        
 				<StartDateUtc>2015-12-30T14:30:00</StartDateUtc>
 				<EndDateUtc>2015-12-30T19:33:00</EndDateUtc>
 				<ConfirmationNumber>123DJM</ConfirmationNumber>
@@ -290,7 +294,6 @@ userid_value
     			<BaseFareNuc xsi:nil="true"/>
     			<TotalFare>418.7000</TotalFare>
     			<TotalFareCurrency>USD</TotalFareCurrency>
-          <!--Need to add details here for each use case -->
     			<AddCollectAmount>0</AddCollectAmount>
     			<LinearFareConstructor>WAS UA SEA214.24UA WAS154.97 USD369.21END UA ZPIADSEA XT5.00AY9.00XFIAD4.5SEA4.5</LinearFareConstructor>
     			<TicketType>E</TicketType>
