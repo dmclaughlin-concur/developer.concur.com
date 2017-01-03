@@ -366,7 +366,7 @@ userid_value
 
 # Use Case 7 - Cancel Booking
 
-### EndPoint - https://www.concursolutions.com/api/travel/booking/v1.0?
+### EndPoint - https://www.concursolutions.com/api/travel/booking/v1.1?
 
 ### Params
 
@@ -378,7 +378,7 @@ confirmationnumber
 
 ### Request
 
-https://www.concursolutions.com/api/travel/booking/v1.0?bookingsource=Test Car Vendor&confirmationnumber=F16726AIUS
+https://www.concursolutions.com/api/travel/booking/v1.1?bookingsource=Test Car Vendor&confirmationnumber=F16726AIUS
 
 
 ## Enumerated Fields
